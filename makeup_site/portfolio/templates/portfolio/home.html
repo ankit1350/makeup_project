@@ -1,17 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Home</title>
-</head>
-<body>
-    <h1>Welcome to the Makeup Portfolio!</h1>
-</body>
-<nav>
-    <a href="/">Home</a> |
-    <a href="/about/">About</a> |
-    <a href="/services/">Services</a> |
-    <a href="/gallery/">Gallery</a> |
-    <a href="/contact/">Contact</a>
-</nav>
+{% extends 'portfolio/base.html' %}
 
-</html>
+{% block title %}Home | Makeup Artist{% endblock %}
+
+{% block content %}
+<h1>Welcome to My Makeup Portfolio</h1>
+<p>Explore the services and gallery.</p>
+{% endblock %}

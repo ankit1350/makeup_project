@@ -1,8 +1,49 @@
-<!DOCTYPE html>
-<html>
-<head><title>About</title></head>
-<body>
-    <h1>About Me</h1>
-    <p>This is the gallery page of the makeup artist.</p>
-</body>
-</html>
+<!-- gallery.html (inside your template) -->
+
+{% extends 'portfolio/base.html' %}
+
+{% block title %}Gallery | Makeup Artist{% endblock %}
+
+{% block content %}
+<h2 class="text-center mb-4">Makeup Gallery</h2>
+
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+
+  <div class="col">
+    <div class="card shadow-sm">
+      <img src="https://unsplash.com/photos/someone-walks-up-stairs-into-sunlight-e-2NTM8fDKs" class="card-img-top" alt="Makeup 1">
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card shadow-sm">
+      <img src="https://images.unsplash.com/photo-1544717305-2782549b5136" class="card-img-top" alt="Makeup 2">
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card shadow-sm">
+      <img src="https://images.unsplash.com/photo-1542831371-d531d36971e6" class="card-img-top" alt="Makeup 3"> <!-- You said this one works ✅ -->
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card shadow-sm">
+      <img src="https://images.unsplash.com/photo-1602526432604-029c7b9d60f6" class="card-img-top" alt="Makeup 4">
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card shadow-sm">
+      <img src="https://images.unsplash.com/photo-1549237510-50f0660a56c1" class="card-img-top" alt="Makeup 5">
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card shadow-sm">
+      <img src="https://images.unsplash.com/photo-1600508773238-2a6f2fe8f4f0" class="card-img-top" alt="Makeup 6">
+    </div>
+  </div>
+
+</div>
+{% endblock %}

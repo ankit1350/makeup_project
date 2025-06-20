@@ -1,8 +1,14 @@
-<!DOCTYPE html>
-<html>
-<head><title>About</title></head>
-<body>
-    <h1>About Me</h1>
-    <p>This is the services of the makeup artist.</p>
-</body>
-</html>
+{% extends 'portfolio/base.html' %}
+
+{% block title %}Services | Makeup Artist{% endblock %}
+
+{% block content %}
+<h2>My Services</h2>
+<ul class="list-group">
+  <li class="list-group-item">Bridal Makeup</li>
+  <li class="list-group-item">Party Makeup</li>
+  <li class="list-group-item">Photoshoot Styling</li>
+  <li class="list-group-item">Hair styling</li>
+</ul>
+{% endblock %}
+
