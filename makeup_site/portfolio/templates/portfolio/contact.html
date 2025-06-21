@@ -1,9 +1,35 @@
 {% extends 'portfolio/base.html' %}
+{% load static %}
 
 {% block title %}Contact | Makeup Artist{% endblock %}
 
 {% block content %}
-<h2>Contact Me</h2>
-<p>Email: ranjudevi051@gmail.com</p>
-<p>Phone: +91 8789346552</p>
+<div class="container my-5">
+  <h2 class="text-center mb-4">Contact Me</h2>
+  <p class="text-center">Reach out through any of the following:</p>
+
+  <ul class="list-group mx-auto" style="max-width: 500px;">
+
+    <!-- Phone -->
+    <li class="list-group-item d-flex align-items-center">
+      <i class="bi bi-telephone-fill me-2" style="font-size: 1.2rem;"></i>
+      +91 8789346552
+    </li>
+
+    <!-- Email -->
+    <li class="list-group-item d-flex align-items-center">
+      <i class="bi bi-envelope-fill me-2" style="font-size: 1.2rem;"></i>
+      ranjudevi051@gmail.com
+    </li>
+
+    <!-- Instagram -->
+    <li class="list-group-item d-flex align-items-center">
+      <i class="bi bi-instagram" style="font-size: 1.4rem; color: #E1306C;"></i>
+      <a href="https://www.instagram.com/your_username/" target="_blank" class="ms-2 text-decoration-none text-dark">
+        @your_username
+      </a>
+    </li>
+
+  </ul>
+</div>
 {% endblock %}

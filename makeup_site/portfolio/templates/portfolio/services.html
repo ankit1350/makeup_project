@@ -1,14 +1,21 @@
 {% extends 'portfolio/base.html' %}
+{% load static %}
 
 {% block title %}Services | Makeup Artist{% endblock %}
 
 {% block content %}
 <h2>My Services</h2>
-<ul class="list-group">
-  <li class="list-group-item">Bridal Makeup</li>
-  <li class="list-group-item">Party Makeup</li>
-  <li class="list-group-item">Photoshoot Styling</li>
-  <li class="list-group-item">Hair styling</li>
-</ul>
-{% endblock %}
 
+<ul class="list-group">
+  <li class="list-group-item" onclick="showImage('bridal')">Bridal Makeup</li>
+  <li class="list-group-item" onclick="showImage('party')">Party Makeup</li>
+  <li class="list-group-item" onclick="showImage('hair')">Hair Style</li>
+</ul>
+
+<!-- Images (Initially Hidden) -->
+<div class="mt-4">
+  <img id="bridal" src="{% static 'portfolio/images/img1.jpg' %}" class="img-fluid d-none" alt="Bridal Makeup">
+  <img id="party" src="{% static 'portfolio/images/img2.jpg' %}" class="img-fluid d-none" alt="Party Makeup">
+  <img id="hair" src="{% static 'portfolio/images/img5.jpg' %}" class="img-fluid d-none" alt="Hair Style">
+</div>
+{% endblock %}
