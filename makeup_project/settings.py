@@ -11,13 +11,11 @@ SECRET_KEY = os.environ.get("SECRET_KEY", "django-insecure-6cu3c36apvd_=g35dr15y
 DEBUG = os.environ.get("DEBUG", "True") == "True"
 
 
-# Replace your ALLOWED_HOSTS with:
-ALLOWED_HOSTS = [
-    'makeup-portfolio-production.up.railway.app',  # Your Railway domain
-    '.railway.app',  # Wildcard for all Railway subdomains
-    'localhost',
-    '127.0.0.1'
-]
+
+
+ALLOWED_HOSTS = ['makeup-portfolio-production.up.railway.app', '127.0.0.1', 'localhost']
+
+DEBUG = True
 # Installed apps
 INSTALLED_APPS = [
     'portfolio',
