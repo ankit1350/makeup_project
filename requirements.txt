@@ -1,2 +1,4 @@
-Django==5.2.3
-gunicorn
+Django==4.2
+gunicorn==20.1.0
+whitenoise==6.4.0  # For static files
+psycopg2-binary==2.9.6  # For PostgreSQL on Render
