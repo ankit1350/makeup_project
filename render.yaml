@@ -9,6 +9,6 @@ services:
       - key: DJANGO_SETTINGS_MODULE
         value: makeup_project.settings
       - key: SECRET_KEY
-        value: your-actual-secret-key
+        value: uecnd+-8$*!87rre0xoj)z64-td2picgh4*!f7gm#%b2m6%59p
       - key: DEBUG
         value: False
