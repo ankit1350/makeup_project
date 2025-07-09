@@ -12,8 +12,8 @@ DEBUG = os.environ.get("DEBUG", "True") == "True"
 
 
 
+ALLOWED_HOSTS = ['ankit1350.pythonanywhere.com']
 
-ALLOWED_HOSTS = ['makeup-portfolio-production.up.railway.app', '127.0.0.1', 'localhost']
 
 DEBUG = True
 # Installed apps
