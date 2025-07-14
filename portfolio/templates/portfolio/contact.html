@@ -4,6 +4,28 @@
 {% block title %}Contact | Makeup Artist{% endblock %}
 
 {% block content %}
+<form method="post" action="/contact/">
+  {% csrf_token %}
+  <div class="mb-3">
+    <label for="name" class="form-label">Name</label>
+    <input type="text" name="name" class="form-control" id="name" placeholder="Enter your name">
+  </div>
+  <div class="mb-3">
+    <label for="email" class="form-label">Email address</label>
+    <input type="email" name="email" class="form-control" id="email" placeholder="Enter your email">
+  </div>
+  <div class="mb-3">
+    <label for="phone" class="form-label">Phone number</label>
+    <input type="number" name="phone" class="form-control" id="phone" placeholder="Enter your phone number">
+  </div>
+  <div class="mb-3">
+    <label for="desc" class="form-label">Desc</label>
+    <textarea name="desc" class="form-control" id="desc" rows="3"></textarea>
+  </div>
+
+  <button class="btn btn-primary" type="submit">Submit</button>
+</form>
+
 <div class="container my-5">
   <h2 class="text-center mb-4">Contact Me</h2>
   <p class="text-center">Reach out through any of the following:</p>

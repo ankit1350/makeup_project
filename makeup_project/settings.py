@@ -1,5 +1,6 @@
 import os
 from pathlib import Path
+from django.contrib.messages import constants as messages
 
 # Base directory
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -18,6 +19,7 @@ ALLOWED_HOSTS = ['makeup-portfolio-production.up.railway.app', '127.0.0.1', 'loc
 DEBUG = True
 # Installed apps
 INSTALLED_APPS = [
+    
     'portfolio',
     'django.contrib.admin',
     'django.contrib.auth',
