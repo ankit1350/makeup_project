@@ -1,0 +1,46 @@
+# 💄 makeup_project
+
+A beautifully designed **portfolio website** for a professional makeup artist. Built using **Python, Django, Bootstrap, and HTML**, this site showcases services, a contact form, a gallery, and other relevant details — all in one elegant web interface.
+
+---
+
+![My Site Banner](https://i.postimg.cc/3xmTtNSf/shamblen-studios-xw-M61-TPMl-Yk-unsplash.jpg)
+
+
+> 🎥 **Demo Video:** [Click here to watch](https://drive.google.com/file/d/17rcXXtdt8uHsReOwhoQQSwvciWUE72rJ/view?usp=drive_link) 
+
+---
+
+## 📌 Features
+
+- 🖼️ Image gallery showcasing makeup looks
+- 📞 Contact page with form submission
+- 💼 Services section for detailing packages
+- 📱 Responsive design using Bootstrap
+- 🔐 Django Admin panel for easy content management
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer        | Technology             |
+|--------------|------------------------|
+| **Backend**  | Python, Django 4.x     |
+| **Frontend** | Bootstrap 5, HTML5, CSS3 |
+| **Database** | SQLite (`db.sqlite3`)  |
+| **Others**   | Django Admin, Form Handling
+
+---
+
+Sure! Here's the **step-by-step installation guide**, ready to **copy and paste** directly into your `README.md` under the **Installation** section:
+
+---
+
+## ⚙️ Installation & Local Setup
+git clone https://github.com/ankit1350/makeup_project.git
+cd makeup_project
+python -m venv venv
+source venv/bin/activate           # or venv\Scripts\activate (Windows)
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py runserver
