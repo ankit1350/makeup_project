@@ -7,7 +7,7 @@ A beautifully designed **portfolio website** for a professional makeup artist. B
 ![My Site Banner](https://i.postimg.cc/3xmTtNSf/shamblen-studios-xw-M61-TPMl-Yk-unsplash.jpg)
 
 
-> 🎥 **Demo Video:** [![Demo](demo.gif)](https://drive.google.com/file/d/17rcXXtdt8uHsReOwhoQQSwvciWUE72rJ/view?usp=sharing)
+> 🎥 **Demo Video:** (demo.gif)](https://drive.google.com/file/d/17rcXXtdt8uHsReOwhoQQSwvciWUE72rJ/view?usp=sharing)
 
 
 ---
@@ -33,7 +33,6 @@ A beautifully designed **portfolio website** for a professional makeup artist. B
 
 ---
 
-Sure! Here's the **step-by-step installation guide**, ready to **copy and paste** directly into your `README.md` under the **Installation** section:
 
 ---
 
