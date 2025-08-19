@@ -37,10 +37,23 @@ Sure! Here's the **step-by-step installation guide**, ready to **copy and paste*
 ---
 
 ## ⚙️ Installation & Local Setup
+
+```bash
+# Clone the repository
 git clone https://github.com/ankit1350/makeup_project.git
 cd makeup_project
+
+# Create and activate a virtual environment
 python -m venv venv
-source venv/bin/activate           # or venv\Scripts\activate (Windows)
+source venv/bin/activate     # On Linux/Mac
+venv\Scripts\activate        # On Windows
+
+# Install dependencies
 pip install -r requirements.txt
+
+# Run migrations
 python manage.py migrate
+
+# Start the development server
 python manage.py runserver
+
