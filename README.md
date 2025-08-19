@@ -7,7 +7,9 @@ A beautifully designed **portfolio website** for a professional makeup artist. B
 ![My Site Banner](https://i.postimg.cc/3xmTtNSf/shamblen-studios-xw-M61-TPMl-Yk-unsplash.jpg)
 
 
-> 🎥 **Demo Video:** (demo.gif)](https://github.com/user-attachments/assets/fc744e9b-58c9-4eb7-bb79-8ace3720f935)
+> 🎥 **Demo Video:** 
+https://github.com/user-attachments/assets/fc744e9b-58c9-4eb7-bb79-8ace3720f935
+
 
 
 ---
